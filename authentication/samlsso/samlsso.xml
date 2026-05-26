@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="authentication" method="upgrade">
+    <name>Authentication - SAML SSO</name>
+    <author>GidLab</author>
+    <version>1.0.0</version>
+    <description>Valida token SAML emitido pelo SimpleSAMLphp SP para acesso ao painel admin.</description>
+    <namespace path="src">Joomla\Plugin\Authentication\Samlsso</namespace>
+    <files>
+        <folder plugin="samlsso">services</folder>
+        <folder>src</folder>
+    </files>
+</extension>
