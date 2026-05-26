@@ -47,7 +47,7 @@ Painel administrativo do Joomla (/administrator/)
 
 | Requisito | Versão mínima | Notas |
 |-----------|---------------|-------|
-| Joomla | 6.x | Testado na 6.1.0. Compatível com Joomla 5 com ajustes menores (ver nota ao final) |
+| Joomla | 6.x | Testado na 6.1.0. Compatível com Joomla 5 com ajustes menores |
 | PHP | 8.1+ | `json`, `openssl`, `mbstring` habilitados |
 | SimpleSAMLphp | 2.x | SP configurado com `authsource` `default-sp` |
 | Servidor web | Apache / Nginx | Apache com `mod_rewrite`; Nginx com equivalente |
